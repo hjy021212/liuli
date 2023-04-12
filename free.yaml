@@ -5,84 +5,93 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 印度-1.93MB/s, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
   - {name: 美国-3.13MB/s, server: 156.225.67.192, port: 38323, type: vmess, uuid: d024fd8b-ea78-4789-b928-70afa1a910ce, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-3.19MB/s, server: 156.225.67.109, port: 45208, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-5.17MB/s, server: 171.22.134.28, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-5.40MB/s, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-4.13MB/s, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-4.35MB/s, server: 192.74.229.215, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.40MB/s, server: 142.4.112.13, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.73MB/s, server: 38.53.92.186, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.95MB/s, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-4.95MB/s 2, server: 192.74.232.246, port: 51802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-5.18MB/s, server: 45.86.11.200, port: 44101, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-5.20MB/s, server: 142.4.118.248, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-5.40MB/s, server: 140.99.59.254, port: 55512, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国-6.02MB/s, server: 45.86.11.148, port: 39182, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本-383.4KB/s, server: jp.mousse.tk, port: 16650, type: vmess, uuid: d66a47f2-5136-492c-c82a-74835bb03a76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国-3.07MB/s, server: 5.78.73.163, port: 21, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-5.18MB/s, server: 45.86.11.200, port: 44101, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-5.47MB/s, server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 塞浦路斯-754.8KB/s, server: 203.24.108.100, port: 80, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg.v2ray8.xyz}}, udp: true}
-  - {name: 美国-4.73MB/s, server: 38.53.92.186, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-4.40MB/s, server: 142.4.112.13, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-5.65MB/s, server: 108.186.116.172, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-4.95MB/s, server: 142.4.97.74, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中转节点-6.18MB/s, server: v01.gutingting.com, port: 20221, type: trojan, password: c4605e61-1c9c-4a9a-8403-dacedb76eb77, sni: v2jp01.fuqiangren.com, skip-cert-verify: true, udp: true}
-  - {name: 中转节点-8.21MB/s, server: ns02.gutingting.com, port: 30045, type: vmess, uuid: a1a0a9ac-d023-4675-80ac-250c4558d746, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh02.fastcloud.club}}, udp: true}
-  - {name: 这个嘎嘎好用, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
-  - {name: 中转节点-6.32MB/s, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
   - {name: 台湾-3.82MB/s, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 印度-1.93MB/s, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: 这个嘎嘎好用, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-1.42MB/s, server: v02.gutingting.com, port: 20227, type: trojan, password: 5e68bb2d-9182-45fd-a398-b6c0e5089e3e, sni: v2uk01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-14.02MB/s, server: v01.gutingting.com, port: 20221, type: trojan, password: 92551ef0-8756-4e7e-aeac-6fa5ab1ca265, sni: v2jp01.fuqiangren.com, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-2.98MB/s, server: v01.gutingting.com, port: 30040, type: vmess, uuid: da1c0d8b-21d1-434d-8c14-87dde8430a22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aceamedv, headers: {Host: sh01.fastcloud.club}}, udp: true}
+  - {name: 中转节点-5.39MB/s, server: gg.xn--gmqa02ag57d.com, port: 45168, type: trojan, password: 0cd21acc-e31d-3b8c-92b2-ac01ae4d68d2, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-6.32MB/s, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-3.71MB/s, server: hbcu.lele233.top, port: 16157, type: ss, cipher: aes-256-gcm, password: 0d0eaed1-5630-4806-b4b2-64c2b142884a, udp: true}
+  - {name: 中转节点-2.70MB/s, server: 116.192.171.97, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-515.9KB/s, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
+  - {name: 美国-3.14MB/s, server: 156.225.67.192, port: 38323, type: vmess, uuid: d024fd8b-ea78-4789-b928-70afa1a910ce, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 印度-1.93MB/s
       - 美国-3.13MB/s
-      - 美国-3.19MB/s
-      - 美国-5.17MB/s
-      - 美国-5.40MB/s
       - 美国-4.13MB/s
       - 美国-4.35MB/s
+      - 美国-4.40MB/s
+      - 美国-4.73MB/s
+      - 美国-4.95MB/s
+      - 美国-4.95MB/s 2
+      - 美国-5.18MB/s
+      - 美国-5.20MB/s
+      - 美国-5.40MB/s
       - 美国-6.02MB/s
       - 日本-383.4KB/s
-      - 德国-3.07MB/s
-      - 美国-5.18MB/s
-      - 美国-5.47MB/s
       - 塞浦路斯-754.8KB/s
-      - 美国-4.73MB/s
-      - 美国-4.40MB/s
-      - 美国-5.65MB/s
-      - 美国-4.95MB/s
-      - 中转节点-6.18MB/s
-      - 中转节点-8.21MB/s
-      - 这个嘎嘎好用
-      - 中转节点-6.32MB/s
       - 台湾-3.82MB/s
+      - 印度-1.93MB/s
+      - 这个嘎嘎好用
+      - 中转节点-1.42MB/s
+      - 中转节点-14.02MB/s
+      - 中转节点-2.98MB/s
+      - 中转节点-5.39MB/s
+      - 中转节点-6.32MB/s
+      - 中转节点-3.71MB/s
+      - 中转节点-2.70MB/s
+      - 中转节点-515.9KB/s
+      - 美国-3.14MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 印度-1.93MB/s
       - 美国-3.13MB/s
-      - 美国-3.19MB/s
-      - 美国-5.17MB/s
-      - 美国-5.40MB/s
       - 美国-4.13MB/s
       - 美国-4.35MB/s
+      - 美国-4.40MB/s
+      - 美国-4.73MB/s
+      - 美国-4.95MB/s
+      - 美国-4.95MB/s 2
+      - 美国-5.18MB/s
+      - 美国-5.20MB/s
+      - 美国-5.40MB/s
       - 美国-6.02MB/s
       - 日本-383.4KB/s
-      - 德国-3.07MB/s
-      - 美国-5.18MB/s
-      - 美国-5.47MB/s
       - 塞浦路斯-754.8KB/s
-      - 美国-4.73MB/s
-      - 美国-4.40MB/s
-      - 美国-5.65MB/s
-      - 美国-4.95MB/s
-      - 中转节点-6.18MB/s
-      - 中转节点-8.21MB/s
-      - 这个嘎嘎好用
-      - 中转节点-6.32MB/s
       - 台湾-3.82MB/s
+      - 印度-1.93MB/s
+      - 这个嘎嘎好用
+      - 中转节点-1.42MB/s
+      - 中转节点-14.02MB/s
+      - 中转节点-2.98MB/s
+      - 中转节点-5.39MB/s
+      - 中转节点-6.32MB/s
+      - 中转节点-3.71MB/s
+      - 中转节点-2.70MB/s
+      - 中转节点-515.9KB/s
+      - 美国-3.14MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,28 +109,31 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 印度-1.93MB/s
       - 美国-3.13MB/s
-      - 美国-3.19MB/s
-      - 美国-5.17MB/s
-      - 美国-5.40MB/s
       - 美国-4.13MB/s
       - 美国-4.35MB/s
+      - 美国-4.40MB/s
+      - 美国-4.73MB/s
+      - 美国-4.95MB/s
+      - 美国-4.95MB/s 2
+      - 美国-5.18MB/s
+      - 美国-5.20MB/s
+      - 美国-5.40MB/s
       - 美国-6.02MB/s
       - 日本-383.4KB/s
-      - 德国-3.07MB/s
-      - 美国-5.18MB/s
-      - 美国-5.47MB/s
       - 塞浦路斯-754.8KB/s
-      - 美国-4.73MB/s
-      - 美国-4.40MB/s
-      - 美国-5.65MB/s
-      - 美国-4.95MB/s
-      - 中转节点-6.18MB/s
-      - 中转节点-8.21MB/s
-      - 这个嘎嘎好用
-      - 中转节点-6.32MB/s
       - 台湾-3.82MB/s
+      - 印度-1.93MB/s
+      - 这个嘎嘎好用
+      - 中转节点-1.42MB/s
+      - 中转节点-14.02MB/s
+      - 中转节点-2.98MB/s
+      - 中转节点-5.39MB/s
+      - 中转节点-6.32MB/s
+      - 中转节点-3.71MB/s
+      - 中转节点-2.70MB/s
+      - 中转节点-515.9KB/s
+      - 美国-3.14MB/s
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
